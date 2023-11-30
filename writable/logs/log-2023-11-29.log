@@ -1,0 +1,1525 @@
+CRITICAL - 2023-11-29 01:25:57 --> Undefined property: Config\ayudar::$defaultGroup
+in APPPATH\Controllers\Auth\Register.php on line 29.
+ 1 APPPATH\Controllers\Auth\Register.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\ayudar::$defaultGroup', 'C:\\xampp\\htdocs\\ayudar\\app\\Controllers\\Auth\\Register.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 01:27:14 --> Undefined property: Config\ayudar::$defaultGroup
+in APPPATH\Controllers\Auth\Register.php on line 29.
+ 1 APPPATH\Controllers\Auth\Register.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\ayudar::$defaultGroup', 'C:\\xampp\\htdocs\\ayudar\\app\\Controllers\\Auth\\Register.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 01:27:15 --> Undefined property: Config\ayudar::$defaultGroup
+in APPPATH\Controllers\Auth\Register.php on line 29.
+ 1 APPPATH\Controllers\Auth\Register.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\ayudar::$defaultGroup', 'C:\\xampp\\htdocs\\ayudar\\app\\Controllers\\Auth\\Register.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 01:27:16 --> Undefined property: Config\ayudar::$defaultGroup
+in APPPATH\Controllers\Auth\Register.php on line 29.
+ 1 APPPATH\Controllers\Auth\Register.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\ayudar::$defaultGroup', 'C:\\xampp\\htdocs\\ayudar\\app\\Controllers\\Auth\\Register.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 01:27:16 --> Undefined property: Config\ayudar::$defaultGroup
+in APPPATH\Controllers\Auth\Register.php on line 29.
+ 1 APPPATH\Controllers\Auth\Register.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\ayudar::$defaultGroup', 'C:\\xampp\\htdocs\\ayudar\\app\\Controllers\\Auth\\Register.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+ERROR - 2023-11-29 01:27:40 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ayudar\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ayudar\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ayudar\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ayudar\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ayudar\system\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+#8 C:\xampp\htdocs\ayudar\app\Controllers\Auth\Register.php(30): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+#10 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+#11 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ayudar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ayudar\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-11-29 01:27:40 --> Unknown column 'email' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `username`, `created_at`, `updated_at`, `group`) VALUES (:email:, :password:, :username:, :created_at:, :updated_at:, :group:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+ 6 APPPATH\Controllers\Auth\Register.php(30): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 01:28:26 --> Attempt to read property "defaultGroupUsers" on null
+in APPPATH\Controllers\Auth\Register.php on line 29.
+ 1 APPPATH\Controllers\Auth\Register.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "defaultGroupUsers" on null', 'C:\\xampp\\htdocs\\ayudar\\app\\Controllers\\Auth\\Register.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+ERROR - 2023-11-29 01:28:39 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ayudar\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ayudar\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ayudar\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ayudar\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ayudar\system\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+#8 C:\xampp\htdocs\ayudar\app\Controllers\Auth\Register.php(30): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+#10 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+#11 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ayudar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ayudar\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-11-29 01:28:39 --> Unknown column 'email' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `username`, `created_at`, `updated_at`, `group`) VALUES (:email:, :password:, :username:, :created_at:, :updated_at:, :group:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+ 6 APPPATH\Controllers\Auth\Register.php(30): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+ERROR - 2023-11-29 01:29:34 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ayudar\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ayudar\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ayudar\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ayudar\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ayudar\system\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+#8 C:\xampp\htdocs\ayudar\app\Controllers\Auth\Register.php(30): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+#10 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+#11 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ayudar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ayudar\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-11-29 01:29:34 --> Unknown column 'email' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `username`, `created_at`, `updated_at`, `group`) VALUES (:email:, :password:, :username:, :created_at:, :updated_at:, :group:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+ 6 APPPATH\Controllers\Auth\Register.php(30): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+ERROR - 2023-11-29 01:29:35 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ayudar\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ayudar\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ayudar\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ayudar\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ayudar\system\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+#8 C:\xampp\htdocs\ayudar\app\Controllers\Auth\Register.php(30): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+#10 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+#11 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ayudar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ayudar\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-11-29 01:29:35 --> Unknown column 'email' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `username`, `created_at`, `updated_at`, `group`) VALUES (:email:, :password:, :username:, :created_at:, :updated_at:, :group:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+ 6 APPPATH\Controllers\Auth\Register.php(30): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+ERROR - 2023-11-29 01:29:56 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ayudar\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ayudar\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ayudar\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ayudar\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ayudar\system\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+#8 C:\xampp\htdocs\ayudar\app\Controllers\Auth\Register.php(29): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+#10 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+#11 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ayudar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ayudar\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-11-29 01:29:56 --> Unknown column 'email' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `username`, `created_at`, `updated_at`, `group`) VALUES (:email:, :password:, :username:, :created_at:, :updated_at:, :group:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+ 6 APPPATH\Controllers\Auth\Register.php(29): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+ERROR - 2023-11-29 01:29:57 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ayudar\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ayudar\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ayudar\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ayudar\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ayudar\system\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+#8 C:\xampp\htdocs\ayudar\app\Controllers\Auth\Register.php(29): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+#10 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+#11 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ayudar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ayudar\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-11-29 01:29:57 --> Unknown column 'email' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `username`, `created_at`, `updated_at`, `group`) VALUES (:email:, :password:, :username:, :created_at:, :updated_at:, :group:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+ 6 APPPATH\Controllers\Auth\Register.php(29): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+ERROR - 2023-11-29 01:29:57 --> mysqli_sql_exception: Unknown column 'email' in 'field list' in C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ayudar\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ayudar\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ayudar\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ayudar\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ayudar\system\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+#8 C:\xampp\htdocs\ayudar\app\Controllers\Auth\Register.php(29): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+#10 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+#11 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ayudar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ayudar\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-11-29 01:29:57 --> Unknown column 'email' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `username`, `created_at`, `updated_at`, `group`) VALUES (:email:, :password:, :username:, :created_at:, :updated_at:, :group:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+ 6 APPPATH\Controllers\Auth\Register.php(29): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+ERROR - 2023-11-29 01:57:11 --> mysqli_sql_exception: Duplicate entry 'feroes@gmail.com' for key 'email' in C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ayudar\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\ayudar\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\ayudar\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\ayudar\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ayudar\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ayudar\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ayudar\system\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+#8 C:\xampp\htdocs\ayudar\app\Controllers\Auth\Register.php(29): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+#10 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+#11 C:\xampp\htdocs\ayudar\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ayudar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ayudar\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-11-29 01:57:11 --> Duplicate entry 'feroes@gmail.com' for key 'email'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`email`, `password`, `username`, `created_at`, `updated_at`, `group`) VALUES (:email:, :password:, :username:, :created_at:, :updated_at:, :group:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+ 6 APPPATH\Controllers\Auth\Register.php(29): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 02:07:17 --> Cannot declare class App\Entities\User, because the name is already in use
+in APPPATH\Entities\UserInfo.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-29 02:07:24 --> Cannot declare class App\Entities\User, because the name is already in use
+in APPPATH\Entities\UserInfo.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-29 03:09:28 --> Undefined variable $uri
+in APPPATH\Views\Front\layout\head.php on line 14.
+ 1 APPPATH\Views\Front\layout\head.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uri', 'C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\layout\\head.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\layout\\head.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('Front/layout/head', null, true)
+ 5 APPPATH\Views\Front\layout\main.php(11): CodeIgniter\View\View->include('Front/layout/head')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\layout\\main.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Front/layout/main', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Auth\\register', [], true)
+10 APPPATH\Controllers\Auth\Register.php(34): view('Auth\\register')
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:15:03 --> syntax error, unexpected single-quoted string "", expecting "," or ";"
+in APPPATH\Views\Front\layout\head.php on line 14.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('Front/layout/head', null, true)
+ 3 APPPATH\Views\Front\layout\main.php(11): CodeIgniter\View\View->include('Front/layout/head')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Front/layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Auth\\register', [], true)
+ 8 APPPATH\Controllers\Auth\Register.php(34): view('Auth\\register')
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:15:22 --> syntax error, unexpected single-quoted string "", expecting "," or ";"
+in APPPATH\Views\Front\layout\head.php on line 14.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('Front/layout/head', null, true)
+ 3 APPPATH\Views\Front\layout\main.php(11): CodeIgniter\View\View->include('Front/layout/head')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Front/layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Auth\\register', [], true)
+ 8 APPPATH\Controllers\Auth\Register.php(34): view('Auth\\register')
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:34:19 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:35:17 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:35:18 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:35:19 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:40:48 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:40:49 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:42:32 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:42:33 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:42:34 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:42:34 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:42:46 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:42:47 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:42:48 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:42:49 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:42:49 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:42:49 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:43:03 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:43:04 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:50:31 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:50:32 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+WARNING - 2023-11-29 03:53:11 --> Routes file not found: "C:\xampp\htdocs\ayudar\app\Config/Routes.php"
+WARNING - 2023-11-29 03:53:12 --> Routes file not found: "C:\xampp\htdocs\ayudar\app\Config/Routes.php"
+WARNING - 2023-11-29 03:54:43 --> Routes file not found: "C:\xampp\htdocs\ayudar\app\Config/Routes.php"
+WARNING - 2023-11-29 03:54:44 --> Routes file not found: "C:\xampp\htdocs\ayudar\app\Config/Routes.php"
+WARNING - 2023-11-29 03:54:44 --> Routes file not found: "C:\xampp\htdocs\ayudar\app\Config/Routes.php"
+WARNING - 2023-11-29 03:55:31 --> Routes file not found: "C:\xampp\htdocs\ayudar\app\Config/Routes.php"
+CRITICAL - 2023-11-29 03:56:51 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:58:25 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 03:58:26 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 04:01:21 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 04:01:22 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 04:01:24 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 04:04:51 --> Class "App\Controllers\Controller" not found
+in APPPATH\Controllers\BaseController.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ayudar\\app\\Controllers\\BaseController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 4 APPPATH\Controllers\Auth\Register.php(7): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once('C:\\xampp\\htdocs\\ayudar\\app\\Controllers\\Auth\\Register.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ayudar\\app\\Controllers\\Auth\\Register.php')
+ 7 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth\\Register')
+ 8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth\\Register')
+ 9 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Auth\\Register', true)
+10 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 04:05:15 --> Could not check compatibility between App\Controllers\BaseController::initController(App\Controllers\RequestInterface $request, App\Controllers\ResponseInterface $response, App\Controllers\LoggerInterface $logger) and CodeIgniter\Controller::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger), because class App\Controllers\RequestInterface is not available
+in APPPATH\Controllers\BaseController.php on line 49.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-11-29 04:05:24 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:27:21 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:29:55 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:33:48 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:33:49 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:33:50 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:33:54 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:34:52 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:34:53 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:35:13 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:35:14 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:35:20 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:36:41 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:36:42 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:42:10 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:45:21 --> Undefined variable $countries
+in APPPATH\Views\Auth\register.php on line 57.
+ 1 APPPATH\Views\Auth\register.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\register.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\register.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Auth/register', [], true)
+ 5 APPPATH\Controllers\Auth\Register.php(21): view('Auth/register')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:46:24 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 05:59:28 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:12:19 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:12:20 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:12:20 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:19:11 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:20:02 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:22:27 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:22:28 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:22:28 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:25:49 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:25:49 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:25:50 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:25:51 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:25:51 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:28:33 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:28:34 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:28:52 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:28:53 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(17): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:33:40 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:33:41 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:36:47 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:36:48 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:36:49 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:45:50 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:45:51 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:45:52 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:53:54 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:53:55 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:53:56 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:53:56 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:54:09 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:54:10 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:54:10 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:54:11 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:54:11 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:54:11 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:54:12 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:54:12 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:54:12 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:54:12 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:54:12 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:54:13 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:54:13 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:55:17 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:55:18 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:55:18 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:56:45 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:56:46 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 06:58:40 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:06:14 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 110.
+ 1 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 2 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:06:16 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 110.
+ 1 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 2 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:07:12 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:08:34 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:08:35 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:08:36 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:08:37 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:08:37 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:08:37 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:08:37 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:08:38 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:16:36 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:16:45 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:16:46 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:24:50 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:24:51 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:26:38 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:27:04 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:27:38 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 07:27:39 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 20:06:39 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 20:11:14 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 20:15:03 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-29 20:18:25 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CountriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Auth\Register.php(16): model('CountriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Register->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Register))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
