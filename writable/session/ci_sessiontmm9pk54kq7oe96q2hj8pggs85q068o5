@@ -1,1 +1,1 @@
-__ci_last_regenerate|i:1701359227;_ci_previous_url|s:32:"http://localhost:8080/auth/login";msg|a:2:{s:4:"type";s:6:"danger";s:4:"body";s:35:"Usuario no encontrado en el sistema";}__ci_vars|a:1:{s:3:"msg";s:3:"old";}
+__ci_last_regenerate|i:1701366161;_ci_previous_url|s:32:"http://localhost:8080/auth/login";msg|a:2:{s:4:"type";s:6:"danger";s:4:"body";s:35:"Usuario no encontrado en el sistema";}__ci_vars|a:1:{s:3:"msg";s:3:"old";}

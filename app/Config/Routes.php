@@ -21,7 +21,7 @@ $routes->group('/',['namespace' => 'App\Controllers\Front'],function($routes){
     
     });
 
-    $routes->group('admin',['namespace' => 'App\Controllers\Admin', 'filter' => 'auth:admin,user'],function($routes){ //'auth:admin,user'define si user o admin
+    $routes->group('admin',['namespace' => 'App\Controllers\Admin', 'filter' => 'auth:admin'],function($routes){ //'auth:admin,user'define si user o admin
         $routes->get('articulos', 'Posts::index', ['as' => 'posts']);
 
         $routes->get('categorias', 'Categories::index', ['as' => 'categories']);

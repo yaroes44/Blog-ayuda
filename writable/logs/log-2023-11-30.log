@@ -2403,3 +2403,23 @@ in SYSTEMPATH\Config\Factories.php on line 215.
  6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-30 17:44:06 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CategoriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Admin\Categories.php(11): model('CategoriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-11-30 17:53:34 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CategoriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Admin\Categories.php(11): model('CategoriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
