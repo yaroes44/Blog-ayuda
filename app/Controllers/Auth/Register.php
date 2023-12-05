@@ -4,8 +4,8 @@ use App\Controllers\BaseController;
 use App\Entities\User;
 use App\Entities\UserInfo;
 
-class Register extends BaseController
-{
+class Register extends BaseController{
+
     protected $configs;
 
     public function __construct(){
@@ -14,7 +14,7 @@ class Register extends BaseController
 
     public function index(){
         $model = model('CountriesModel');
-        return view('Auth/register', [
+        return view('Auth/register',[
             'countries' => $model->findAll()
         ]);
     }
@@ -22,33 +22,34 @@ class Register extends BaseController
     public function store(){
 
         $validation = service('validation');
-        $validation -> setRules ([
-        'name' => 'required|alpha_space',
-        'surname' => 'required|alpha_space',
-        'email' => 'required|valid_email|is_unique [users.email]',
-        'id_country' => 'required|is_not_unique [countries.id_country]',
-        'password' =>'required|matches[c-password]'
-    ]);
+        $validation->setRules([
+            'name' => 'required|alpha_space',
+            'surname' => 'required|alpha_space',
+            'email' => 'required|valid_email|is_unique[users.email]',
+            'id_country' => 'required|is_not_unique[countries.id_country]',
+            'password' => 'required|matches[c-password]'
+        ]);
 
-    if($validation->withRequest($this->request)->run()){
-        return redirect()->back()->withInput()->with('errors', $validation->getErrors());
-    }
+        if(!$validation->withRequest($this->request)->run()){
+            // dd($validation->getErrors());
+            return redirect()->back()->withInput()->with('errors', $validation->getErrors());
+        }
 
-        $user = new User($this->request->getPost()); //retorno de valores del post
+        $user = new User($this->request->getPost());
         $user->generateUsername();
 
         $model = model('UsersModel');
-        $model->withGroup(config('ayudar')->$defaultGroupUsers);
+        $model->withGroup(config('Blog')->defaultGroupUsers);
 
         $userInfo = new UserInfo($this->request->getPost());
         $model->addInfoUser($userInfo);
 
         $model->save($user);
 
-        return redirect()->route('login')->with('msg',[
-            'type' => 'sucess',
-            'body' => 'Nuevo usuario registrado'
-        ]);
+        return redirect()->route('login')->
+            with('msg',[
+                'type' => 'success',
+                'body' => 'Usuario registrado con exito!'
+            ]);
     }
 }
-

@@ -1,0 +1,668 @@
+INFO - 2023-12-05 01:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:27:55 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CategoriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Admin\Categories.php(11): model('CategoriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:29:57 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CategoriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Admin\Categories.php(11): model('CategoriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:31:27 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CategoriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Admin\Posts.php(13): model('CategoriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Posts->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Posts))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:31:59 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CategoriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Admin\Posts.php(13): model('CategoriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Posts->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Posts))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:32:00 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CategoriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Admin\Posts.php(13): model('CategoriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Posts->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Posts))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:32:46 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CategoriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Admin\Posts.php(13): model('CategoriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Posts->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Posts))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:32:49 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CategoriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Admin\Categories.php(11): model('CategoriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:34:34 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CategoriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Admin\Categories.php(11): model('CategoriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:34:35 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CategoriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Admin\Categories.php(11): model('CategoriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:37:27 --> Undefined constant "App\Models\object"
+in SYSTEMPATH\Config\Factories.php on line 215.
+ 1 SYSTEMPATH\Config\Factories.php(165): CodeIgniter\Config\Factories::createInstance('models', 'App\\Models\\CategoriesModel', [...])
+ 2 SYSTEMPATH\Common.php(827): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 3 APPPATH\Controllers\Admin\Categories.php(11): model('CategoriesModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:50:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:50:57 --> Call to a member function published() on null
+in APPPATH\Controllers\Front\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:51:09 --> Call to a member function published() on null
+in APPPATH\Controllers\Front\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:51:53 --> Call to a member function published() on null
+in APPPATH\Controllers\Front\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:52:09 --> Call to a member function published() on null
+in APPPATH\Controllers\Front\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 01:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:54:38 --> Undefined variable $countries
+in APPPATH\Views\Auth\login.php on line 55.
+ 1 APPPATH\Views\Auth\login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\login.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Auth/login', [], true)
+ 5 APPPATH\Controllers\Auth\Login.php(10): view('Auth/login')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 01:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 01:55:39 --> Undefined variable $countries
+in APPPATH\Views\Auth\login.php on line 55.
+ 1 APPPATH\Views\Auth\login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\login.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Auth/login', [], true)
+ 5 APPPATH\Controllers\Auth\Login.php(10): view('Auth/login')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 02:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 02:29:38 --> Undefined variable $countries
+in APPPATH\Views\Auth\login.php on line 55.
+ 1 APPPATH\Views\Auth\login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\login.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Auth/login', [], true)
+ 5 APPPATH\Controllers\Auth\Login.php(10): view('Auth/login')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 02:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 02:29:54 --> Undefined variable $countries
+in APPPATH\Views\Auth\login.php on line 55.
+ 1 APPPATH\Views\Auth\login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\login.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Auth/login', [], true)
+ 5 APPPATH\Controllers\Auth\Login.php(10): view('Auth/login')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 02:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:31:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 02:33:19 --> Undefined variable $countries
+in APPPATH\Views\Auth\login.php on line 55.
+ 1 APPPATH\Views\Auth\login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\login.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Auth/login', [], true)
+ 5 APPPATH\Controllers\Auth\Login.php(10): view('Auth/login')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 02:33:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 03:19:27 --> Invalid file: "Front/Filter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/Filter.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Filter', [], true)
+ 3 APPPATH\Controllers\Front\Home.php(33): view('Front/Filter', [...])
+ 4 SYSTEMPATH\View\Cell.php(285): App\Controllers\Front\Home->filter([...])
+ 5 SYSTEMPATH\View\Cell.php(103): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Front\Home), 'filter', [...], 'App\\Controllers\\Front\\Home')
+ 6 SYSTEMPATH\Common.php(1204): CodeIgniter\View\Cell->render('\\App\\Controllers\\Front\\Home::filter', [...], 0, 'AppControllersFrontHomefilterdfe31941ff01e738b73f955e8ae359c3')
+ 7 APPPATH\Views\Front\Home.php(52): view_cell('\\App\\Controllers\\Front\\Home::filter', [...])
+ 8 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\Home.php')
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Home', [], true)
+11 APPPATH\Controllers\Front\Home.php(12): view('Front/Home', [...])
+12 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+14 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 03:19:30 --> Invalid file: "Front/Filter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/Filter.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Filter', [], true)
+ 3 APPPATH\Controllers\Front\Home.php(33): view('Front/Filter', [...])
+ 4 SYSTEMPATH\View\Cell.php(285): App\Controllers\Front\Home->filter([...])
+ 5 SYSTEMPATH\View\Cell.php(103): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Front\Home), 'filter', [...], 'App\\Controllers\\Front\\Home')
+ 6 SYSTEMPATH\Common.php(1204): CodeIgniter\View\Cell->render('\\App\\Controllers\\Front\\Home::filter', [...], 0, 'AppControllersFrontHomefilterdfe31941ff01e738b73f955e8ae359c3')
+ 7 APPPATH\Views\Front\Home.php(52): view_cell('\\App\\Controllers\\Front\\Home::filter', [...])
+ 8 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\Home.php')
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Home', [], true)
+11 APPPATH\Controllers\Front\Home.php(12): view('Front/Home', [...])
+12 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+14 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 03:19:31 --> Invalid file: "Front/Filter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/Filter.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Filter', [], true)
+ 3 APPPATH\Controllers\Front\Home.php(33): view('Front/Filter', [...])
+ 4 SYSTEMPATH\View\Cell.php(285): App\Controllers\Front\Home->filter([...])
+ 5 SYSTEMPATH\View\Cell.php(103): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Front\Home), 'filter', [...], 'App\\Controllers\\Front\\Home')
+ 6 SYSTEMPATH\Common.php(1204): CodeIgniter\View\Cell->render('\\App\\Controllers\\Front\\Home::filter', [...], 0, 'AppControllersFrontHomefilterdfe31941ff01e738b73f955e8ae359c3')
+ 7 APPPATH\Views\Front\Home.php(52): view_cell('\\App\\Controllers\\Front\\Home::filter', [...])
+ 8 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\Home.php')
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Home', [], true)
+11 APPPATH\Controllers\Front\Home.php(12): view('Front/Home', [...])
+12 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+14 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 03:21:07 --> Invalid file: "Front/Filter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/Filter.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Filter', [], true)
+ 3 APPPATH\Controllers\Front\Home.php(33): view('Front/Filter', [...])
+ 4 SYSTEMPATH\View\Cell.php(285): App\Controllers\Front\Home->filter([...])
+ 5 SYSTEMPATH\View\Cell.php(103): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Front\Home), 'filter', [...], 'App\\Controllers\\Front\\Home')
+ 6 SYSTEMPATH\Common.php(1204): CodeIgniter\View\Cell->render('\\App\\Controllers\\Front\\Home::filter', [...], 0, 'AppControllersFrontHomefilterdfe31941ff01e738b73f955e8ae359c3')
+ 7 APPPATH\Views\Front\Home.php(52): view_cell('\\App\\Controllers\\Front\\Home::filter', [...])
+ 8 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\Home.php')
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Home', [], true)
+11 APPPATH\Controllers\Front\Home.php(12): view('Front/Home', [...])
+12 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+14 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 03:21:08 --> Invalid file: "Front/Filter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/Filter.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Filter', [], true)
+ 3 APPPATH\Controllers\Front\Home.php(33): view('Front/Filter', [...])
+ 4 SYSTEMPATH\View\Cell.php(285): App\Controllers\Front\Home->filter([...])
+ 5 SYSTEMPATH\View\Cell.php(103): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Front\Home), 'filter', [...], 'App\\Controllers\\Front\\Home')
+ 6 SYSTEMPATH\Common.php(1204): CodeIgniter\View\Cell->render('\\App\\Controllers\\Front\\Home::filter', [...], 0, 'AppControllersFrontHomefilterdfe31941ff01e738b73f955e8ae359c3')
+ 7 APPPATH\Views\Front\Home.php(52): view_cell('\\App\\Controllers\\Front\\Home::filter', [...])
+ 8 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\Home.php')
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Home', [], true)
+11 APPPATH\Controllers\Front\Home.php(12): view('Front/Home', [...])
+12 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+14 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 03:30:21 --> Invalid file: "Front/Filter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/Filter.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Filter', [], true)
+ 3 APPPATH\Controllers\Front\Home.php(33): view('Front/Filter', [...])
+ 4 SYSTEMPATH\View\Cell.php(285): App\Controllers\Front\Home->filter([...])
+ 5 SYSTEMPATH\View\Cell.php(103): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Front\Home), 'filter', [...], 'App\\Controllers\\Front\\Home')
+ 6 SYSTEMPATH\Common.php(1204): CodeIgniter\View\Cell->render('\\App\\Controllers\\Front\\Home::filter', [...], 0, 'AppControllersFrontHomefilterdfe31941ff01e738b73f955e8ae359c3')
+ 7 APPPATH\Views\Front\Home.php(52): view_cell('\\App\\Controllers\\Front\\Home::filter', [...])
+ 8 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\Home.php')
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Home', [], true)
+11 APPPATH\Controllers\Front\Home.php(12): view('Front/Home', [...])
+12 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+14 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 03:30:22 --> Invalid file: "Front/Filter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/Filter.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Filter', [], true)
+ 3 APPPATH\Controllers\Front\Home.php(33): view('Front/Filter', [...])
+ 4 SYSTEMPATH\View\Cell.php(285): App\Controllers\Front\Home->filter([...])
+ 5 SYSTEMPATH\View\Cell.php(103): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Front\Home), 'filter', [...], 'App\\Controllers\\Front\\Home')
+ 6 SYSTEMPATH\Common.php(1204): CodeIgniter\View\Cell->render('\\App\\Controllers\\Front\\Home::filter', [...], 0, 'AppControllersFrontHomefilterdfe31941ff01e738b73f955e8ae359c3')
+ 7 APPPATH\Views\Front\Home.php(52): view_cell('\\App\\Controllers\\Front\\Home::filter', [...])
+ 8 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\Home.php')
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Home', [], true)
+11 APPPATH\Controllers\Front\Home.php(12): view('Front/Home', [...])
+12 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+14 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 03:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 03:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 03:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 03:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 03:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 03:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 03:30:48 --> Invalid file: "Front/Filter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/Filter.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Filter', [], true)
+ 3 APPPATH\Controllers\Front\Home.php(33): view('Front/Filter', [...])
+ 4 SYSTEMPATH\View\Cell.php(285): App\Controllers\Front\Home->filter([...])
+ 5 SYSTEMPATH\View\Cell.php(103): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Front\Home), 'filter', [...], 'App\\Controllers\\Front\\Home')
+ 6 SYSTEMPATH\Common.php(1204): CodeIgniter\View\Cell->render('\\App\\Controllers\\Front\\Home::filter', [...], 0, 'AppControllersFrontHomefilterdfe31941ff01e738b73f955e8ae359c3')
+ 7 APPPATH\Views\Front\Home.php(52): view_cell('\\App\\Controllers\\Front\\Home::filter', [...])
+ 8 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\Home.php')
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Home', [], true)
+11 APPPATH\Controllers\Front\Home.php(12): view('Front/Home', [...])
+12 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+14 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 03:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 03:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 03:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 03:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 04:17:56 --> Invalid file: "Front/Filter.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/Filter.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Filter', [], true)
+ 3 APPPATH\Controllers\Front\Home.php(33): view('Front/Filter', [...])
+ 4 SYSTEMPATH\View\Cell.php(285): App\Controllers\Front\Home->filter([...])
+ 5 SYSTEMPATH\View\Cell.php(103): CodeIgniter\View\Cell->renderSimpleClass(Object(App\Controllers\Front\Home), 'filter', [...], 'App\\Controllers\\Front\\Home')
+ 6 SYSTEMPATH\Common.php(1204): CodeIgniter\View\Cell->render('\\App\\Controllers\\Front\\Home::filter', [...], 0, 'AppControllersFrontHomefilterdfe31941ff01e738b73f955e8ae359c3')
+ 7 APPPATH\Views\Front\Home.php(52): view_cell('\\App\\Controllers\\Front\\Home::filter', [...])
+ 8 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\Home.php')
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+10 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Home', [], true)
+11 APPPATH\Controllers\Front\Home.php(12): view('Front/Home', [...])
+12 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+14 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 04:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:18:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 04:48:29 --> Undefined variable $countries
+in APPPATH\Views\Auth\login.php on line 55.
+ 1 APPPATH\Views\Auth\login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countries', 'C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\login.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Auth\\login.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Auth/login', [], true)
+ 5 APPPATH\Controllers\Auth\Login.php(10): view('Auth/login')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 04:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 04:54:48 --> Invalid file: "Front/layout/head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/layout/head.php')
+ 2 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('Front/layout/head', null, true)
+ 3 APPPATH\Views\Front\layout\main.php(13): CodeIgniter\View\View->include('Front/layout/head')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Front/layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Home', [], true)
+ 8 APPPATH\Controllers\Front\Home.php(12): view('Front/Home', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 04:56:14 --> Invalid file: "Front/layout/head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/layout/head.php')
+ 2 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('Front/layout/head', null, true)
+ 3 APPPATH\Views\Front\layout\main.php(13): CodeIgniter\View\View->include('Front/layout/head')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Front/layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Home', [], true)
+ 8 APPPATH\Controllers\Front\Home.php(12): view('Front/Home', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 04:56:16 --> Invalid file: "Front/layout/head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/layout/head.php')
+ 2 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('Front/layout/head', null, true)
+ 3 APPPATH\Views\Front\layout\main.php(13): CodeIgniter\View\View->include('Front/layout/head')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Front\\layout\\main.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('Front/layout/main', [], true)
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Front/Home', [], true)
+ 8 APPPATH\Controllers\Front\Home.php(12): view('Front/Home', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Front\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front\Home))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 04:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 05:03:03 --> Class "Hashids\Hashids" not found
+in APPPATH\Entities\Category.php on line 19.
+ 1 APPPATH\Views\Admin\categories.php(29): App\Entities\Category->getDeleteLink()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Admin\\categories.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/categories', [], true)
+ 5 APPPATH\Controllers\Admin\Categories.php(11): view('Admin/categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 05:04:10 --> Class "Hashids\Hashids" not found
+in APPPATH\Entities\Category.php on line 19.
+ 1 APPPATH\Views\Admin\categories.php(29): App\Entities\Category->getDeleteLink()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Admin\\categories.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/categories', [], true)
+ 5 APPPATH\Controllers\Admin\Categories.php(11): view('Admin/categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 14:25:07 --> Class "Hashids\Hashids" not found
+in APPPATH\Entities\Category.php on line 19.
+ 1 APPPATH\Views\Admin\categories.php(29): App\Entities\Category->getDeleteLink()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Admin\\categories.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/categories', [], true)
+ 5 APPPATH\Controllers\Admin\Categories.php(11): view('Admin/categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 14:25:28 --> Class "Hashids\Hashids" not found
+in APPPATH\Entities\Category.php on line 19.
+ 1 APPPATH\Views\Admin\categories.php(29): App\Entities\Category->getDeleteLink()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Admin\\categories.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/categories', [], true)
+ 5 APPPATH\Controllers\Admin\Categories.php(11): view('Admin/categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 14:26:31 --> App\Models\PostModel::assignCategories(): Argument #1 ($categories) must be of type array, null given, called in C:\xampp\htdocs\ayudar\app\Controllers\Admin\Posts.php on line 39
+in APPPATH\Models\PostModel.php on line 51.
+ 1 APPPATH\Controllers\Admin\Posts.php(39): App\Models\PostModel->assignCategories(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Posts->store()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 14:32:10 --> App\Models\PostModel::assignCategories(): Argument #1 ($categories) must be of type array, null given, called in C:\xampp\htdocs\ayudar\app\Controllers\Admin\Posts.php on line 39
+in APPPATH\Models\PostModel.php on line 51.
+ 1 APPPATH\Controllers\Admin\Posts.php(39): App\Models\PostModel->assignCategories(null)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Posts->store()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Posts))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 14:32:19 --> Class "Hashids\Hashids" not found
+in APPPATH\Entities\Category.php on line 19.
+ 1 APPPATH\Views\Admin\categories.php(29): App\Entities\Category->getDeleteLink()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Admin\\categories.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/categories', [], true)
+ 5 APPPATH\Controllers\Admin\Categories.php(11): view('Admin/categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+CRITICAL - 2023-12-05 14:33:10 --> Class "Hashids\Hashids" not found
+in APPPATH\Entities\Category.php on line 19.
+ 1 APPPATH\Views\Admin\categories.php(29): App\Entities\Category->getDeleteLink()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Admin\\categories.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/categories', [], true)
+ 5 APPPATH\Controllers\Admin\Categories.php(11): view('Admin/categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 14:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 14:33:24 --> Class "Hashids\Hashids" not found
+in APPPATH\Entities\Category.php on line 19.
+ 1 APPPATH\Views\Admin\categories.php(29): App\Entities\Category->getDeleteLink()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Admin\\categories.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/categories', [], true)
+ 5 APPPATH\Controllers\Admin\Categories.php(11): view('Admin/categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 14:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 14:38:10 --> Class "Hashids\Hashids" not found
+in APPPATH\Entities\Category.php on line 19.
+ 1 APPPATH\Views\Admin\categories.php(29): App\Entities\Category->getDeleteLink()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Admin\\categories.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/categories', [], true)
+ 5 APPPATH\Controllers\Admin\Categories.php(11): view('Admin/categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
+INFO - 2023-12-05 14:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 14:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 14:39:35 --> Class "Hashids\Hashids" not found
+in APPPATH\Entities\Category.php on line 19.
+ 1 APPPATH\Views\Admin\categories.php(29): App\Entities\Category->getDeleteLink()
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ayudar\\app\\Views\\Admin\\categories.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/categories', [], true)
+ 5 APPPATH\Controllers\Admin\Categories.php(11): view('Admin/categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Categories->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Categories))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ayudar\\public\\index.php')
